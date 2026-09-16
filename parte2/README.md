@@ -18,9 +18,9 @@ en Scala utilizando JupyterLab.
 ## Evidencias
 
 ![Variables y tipos](images/Ejercicio01_Variables_Tipos.png)
-![Función bust](capturas/Ejercicio04_Funcion_Bust.png)
-![Arrays y mutabilidad](capturas/Ejercicio07_Arrays_Mutabilidad.png)
-![Listas y concatenación](capturas/Ejercicio11_Listas_Concatenacion.png)
-![While vs foreach](capturas/Ejercicio13_While_vs_Foreach.png)
-![Efectos secundarios](capturas/Ejercicio14_Efectos_Secundarios.png)
-![Torneo Twenty-One](capturas/Ejercicio15_Torneo_TwentyOne.png)
+![Función bust](images/Ejercicio04_Funcion_Bust.png)
+![Arrays y mutabilidad](images/Ejercicio07_Arrays_Mutabilidad.png)
+![Listas y concatenación](images/Ejercicio11_Listas_Concatenacion.png)
+![While vs foreach](images/Ejercicio13_While_vs_Foreach.png)
+![Efectos secundarios](images/Ejercicio14_Efectos_Secundarios.png)
+![Torneo Twenty-One](images/Ejercicio15_Torneo_TwentyOne.png)
