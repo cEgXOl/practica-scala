@@ -17,7 +17,7 @@ en Scala utilizando JupyterLab.
 
 ## Evidencias
 
-![Variables y tipos](capturas/Ejercicio01_Variables_Tipos.png)
+![Variables y tipos](image/Ejercicio01_Variables_Tipos.png)
 ![Función bust](capturas/Ejercicio04_Funcion_Bust.png)
 ![Arrays y mutabilidad](capturas/Ejercicio07_Arrays_Mutabilidad.png)
 ![Listas y concatenación](capturas/Ejercicio11_Listas_Concatenacion.png)
