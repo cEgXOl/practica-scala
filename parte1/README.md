@@ -4,8 +4,6 @@ En esta parte de la práctica se configuran tres entornos para desarrollar y eje
 
 ## Entorno 1 — JupyterLab + Almond
 
-### Entorno 1
-
 #### JupyterLab + Almond Kernel
 
 Para comprobar el funcionamiento del primer entorno de trabajo, se inició JupyterLab correctamente desde Windows. Desde su interfaz se puede acceder a los notebooks y a los distintos kernels instalados.
@@ -42,7 +40,8 @@ Para verificar el correcto funcionamiento del entorno se realizaron tres pruebas
 
 ![Primera prueba](../images/jupyter_pruebas.png)
 
-### Entorno 2
+
+## Entorno 2 — Visual Studio Code + Metals
 
 #### Comprobación de Java JDK 17
 
@@ -111,14 +110,6 @@ Finalmente, se ejecutó el programa con sbt run.
 La terminal mostró correctamente la salida en Main.scala, confirmando que el proyecto puede compilarse y ejecutarse utilizando Scala 2.12.21 y sbt desde Visual Studio Code.
 
 ![Ejecución con sbt](../images/vscode_sbt_run.png)
-
-
-### Entorno 3
-IntelliJ IDEA Community + sbt
-
-## Entorno 2 — Visual Studio Code + Metals
-
-Pendiente de documentación.
 
 ## Entorno 3 — IntelliJ IDEA Community
 
