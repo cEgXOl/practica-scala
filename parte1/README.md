@@ -129,13 +129,13 @@ Desde el apartado de plugins de IntelliJ IDEA se instaló el plugin Scala.
 
 El proyecto se configuró para utilizar JDK 17 como versión de Java.
 
-![JDK 17 configurado](../images/intellij-jdk17.png)
+![JDK 17 configurado](../images/intellij_jdk17.png)
 
 #### Proyecto sbt creado
 
 Se creó un nuevo proyecto llamado scala-intellij utilizando sbt como herramienta de construcción.
 
-![Proyecto sbt creado](../images/intellij-jdk17.png.png)
+![Proyecto sbt creado](../images/intellij_jdk17.png)
 
 #### Scala 2.12.21 configurado
 
