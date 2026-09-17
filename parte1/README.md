@@ -113,4 +113,63 @@ La terminal mostró correctamente la salida en Main.scala, confirmando que el pr
 
 ## Entorno 3 — IntelliJ IDEA Community
 
-Pendiente de documentación.
+#### IntelliJ IDEA Community instalado.
+
+Se instaló y ejecutó correctamente IntelliJ IDEA Community Edition, que se utilizará como entorno de desarrollo para el proyecto Scala.
+
+![IntelliJ IDEA Community](../images/intellij_inicio.png)
+
+#### Plugin de Scala instalado
+
+Desde el apartado de plugins de IntelliJ IDEA se instaló el plugin Scala.
+
+![Plugin de Scala instalado](../images/intellij_plugin.png)
+
+#### JDK 17 configurado
+
+El proyecto se configuró para utilizar JDK 17 como versión de Java.
+
+![JDK 17 configurado](../images/intellij-jdk17.png)
+
+#### Proyecto sbt creado
+
+Se creó un nuevo proyecto llamado scala-intellij utilizando sbt como herramienta de construcción.
+
+![Proyecto sbt creado](../images/intellij_proyecto_sbt.png)
+
+#### Scala 2.12.21 configurado
+
+El proyecto se configuró para utilizar la versión requerida de Scala:
+
+![Scala 2.12.21 configurado](../images/intellij_scala_version.png)
+
+#### Estructura del proyecto
+
+La estructura del proyecto contiene los archivos de configuración de sbt y el código fuente Scala.
+
+![Estructura del proyecto](../images/intellij_estructura.png)
+
+#### Archivo build.sbt
+
+El archivo build.sbt contiene la configuración proyecto.
+
+![Archivo build.sbt](../images/intellij_build_sbt.png)
+
+#### Archivo Main.scala
+
+Dentro de src/main/scala/ se creó el archivo Main.scala
+![Archivo Main.scala](../images/intellij_main_scala.png)
+
+#### Ejecución desde IntelliJ IDEA
+
+El programa se ejecutó utilizando las herramientas de ejecución integradas de IntelliJ IDEA.
+
+La consola del IDE mostró correctamente la salida del programa, confirmando que el proyecto está correctamente configurado.
+
+![Ejecución desde IntelliJ](../images/intellij_ejec.png)
+
+#### Ejecución mediante sbt run
+
+También se comprobó el funcionamiento del proyecto desde la terminal utilizando sbt run.
+
+![Ejecución mediante sbt](../images/intellij_sbt_run.png)
