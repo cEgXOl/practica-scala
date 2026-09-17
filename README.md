@@ -42,20 +42,13 @@ Pruebas de ejecución
 
 Para verificar el correcto funcionamiento del entorno se realizaron tres pruebas sencillas.
 
-En la primera prueba se declararon dos variables con el nombre y la versión de Scala y se mostró el resultado mediante `println`.
+  -En la primera prueba se declararon dos variables con el nombre y la versión de Scala y se mostró el resultado mediante `println`.
 
-![Primera prueba](../images/jupyter-prueba1.png)
+  -En la segunda prueba se realizó una operación numérica, sumando dos valores y mostrando el resultado obtenido.
 
-En la segunda prueba se realizó una operación numérica, sumando dos valores y mostrando el resultado obtenido.
+  -Finalmente, se creó una colección de tipo `List` con varios lenguajes de programación y se mostró su contenido.
 
-![Segunda prueba](../images/jupyter-prueba2.png)
-
-Finalmente, se creó una colección de tipo `List` con varios lenguajes de programación y se mostró su contenido.
-
-![Tercera prueba](../images/jupyter-prueba3.png)
-
-Las tres pruebas se ejecutaron correctamente, confirmando que JupyterLab, Almond y Scala 2.12.21 están configurados y funcionan correctamente.
-
+![Primera prueba](images/jupyter_pruebas.png)
 
 [Ver documentación](parte1/README.md)
 
