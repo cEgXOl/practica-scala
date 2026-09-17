@@ -147,13 +147,13 @@ El proyecto se configuró para utilizar la versión requerida de Scala:
 
 La estructura del proyecto contiene los archivos de configuración de sbt y el código fuente Scala.
 
-![Estructura del proyecto](../images/intellij_estructura.png)
+![Estructura del proyecto](../images/intellij_scala_version.png)
 
 #### Archivo build.sbt
 
 El archivo build.sbt contiene la configuración proyecto.
 
-![Archivo build.sbt](../images/intellij_build_sbt.png)
+![Archivo build.sbt](../images/intellij_scala_version.png)
 
 #### Archivo Main.scala
 
