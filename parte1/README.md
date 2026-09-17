@@ -135,7 +135,7 @@ El proyecto se configuró para utilizar JDK 17 como versión de Java.
 
 Se creó un nuevo proyecto llamado scala-intellij utilizando sbt como herramienta de construcción.
 
-![Proyecto sbt creado](../images/intellij_proyecto_sbt.png)
+![Proyecto sbt creado](../images/intellij-jdk17.png.png)
 
 #### Scala 2.12.21 configurado
 
