@@ -12,7 +12,7 @@ Nombre y apellidos: César Camacho Castillo
 
 ## Parte 1 — Entornos de trabajo
 
-[Ver documentación](parte1/README.md)
+[Ver Parte 3](parte1/README.md)
 
 
 ## Parte 2 — Programación con Scala
