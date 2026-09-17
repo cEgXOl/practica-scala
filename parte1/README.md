@@ -42,8 +42,6 @@ Para verificar el correcto funcionamiento del entorno se realizaron tres pruebas
 
 ![Primera prueba](../images/jupyter_pruebas.png)
 
-[Ver documentación](parte1/README.md)
-
 ### Entorno 2
 Visual Studio Code + Metals + sbt
 
