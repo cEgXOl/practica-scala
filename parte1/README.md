@@ -48,107 +48,69 @@ Para verificar el correcto funcionamiento del entorno se realizaron tres pruebas
 
 Antes de crear el proyecto Scala se comprobó que Java 17 estaba correctamente instalado en el sistema.
 
-![Comprobación de Java](../images/vscode-java-version.png)
+![Comprobación de Java](../images/java_version.png)
 
-### Visual Studio Code
+#### Visual Studio Code
 
-Se instaló y ejecutó **Visual Studio Code**, que se utilizará como editor para desarrollar el proyecto Scala.
+Se instaló y ejecutó Visual Studio Code, que se utilizará como editor para el proyecto Scala.
 
-![Visual Studio Code](../images/vscode-inicio.png)
+![Visual Studio Code](../images/vscode_inicio.png)
 
-### Instalación de Metals
+#### Instalación de Metals
 
-Desde el apartado de extensiones de Visual Studio Code se instaló **Scala (Metals)**.
+Desde el apartado de extensiones de Visual Studio Code se instaló Scala (Metals).
 
-Metals proporciona soporte para trabajar con proyectos Scala dentro de Visual Studio Code, incluyendo reconocimiento del proyecto, navegación por el código y herramientas de compilación y ejecución.
+![Extensión Metals instalada](../images/vscode_metals.png)
 
-![Extensión Metals instalada](../images/vscode-metals.png)
+#### Comprobación de sbt
 
-### Comprobación de sbt
+Se comprobó que sbt estaba correctamente instalado y disponible desde el sistema.
 
-Para comprobar que **sbt** estaba correctamente instalado y disponible desde el sistema, se ejecutó:
+![Comprobación de sbt](../images/vscode_sbt_version.png)
 
-```bash
-sbt --version
-```
+#### Estructura del proyecto
 
-El comando se ejecutó correctamente, confirmando que sbt está disponible para gestionar y compilar proyectos Scala.
+Se creó un proyecto llamado scala-vscode con la estructura habitual de un proyecto Scala gestionado mediante sbt.
 
-![Comprobación de sbt](../images/vscode-sbt-version.png)
+![Estructura del proyecto](../images/vscode_estructura.png)
 
-### Estructura del proyecto
+#### Contenido de build.sbt
 
-Se creó un proyecto llamado `scala-vscode` con la estructura habitual de un proyecto Scala gestionado mediante sbt.
+El archivo build.sbt contiene la configuración principal del proyecto.
 
-La estructura principal contiene el archivo `build.sbt` y el código fuente dentro de:
+En él se especificó explícitamente la versión de Scala requerida para la práctica y el nombre del proyecto.
 
-```text
-src/main/scala/
-```
+![Configuración de build.sbt](../images/vscode_build.png)
 
-![Estructura del proyecto](../images/vscode-estructura.png)
+#### Archivo Main.scala
 
-### Configuración de `build.sbt`
+En src/main/scala/ se creó el archivo Main.scala, que contiene el programa principal del proyecto.
 
-El archivo `build.sbt` contiene la configuración principal del proyecto.
+El programa muestra varios mensajes por consola para comprobar que el código Scala puede ejecutarse desde este entorno.
 
-En él se especificó explícitamente la versión de Scala requerida para la práctica:
+![Archivo Main.scala](../images/vscode_main.png)
 
-```scala
-scalaVersion := "2.12.21"
-```
+#### Reconocimiento del proyecto por Metals
 
-También se configuró el nombre del proyecto:
+Al abrir la carpeta del proyecto desde Visual Studio Code, Metals detectó el proyecto sbt y cargó correctamente su configuración.
 
-```scala
-name := "scala-vscode"
-```
+![Proyecto reconocido por Metals](../images/vscode_metals_proyecto.png)
 
-![Configuración de build.sbt](../images/vscode-build-sbt.png)
+#### Ejecución de sbt compile
 
-Esta configuración garantiza que el proyecto utilice **Scala 2.12.21**.
-
-### Archivo `Main.scala`
-
-Dentro de `src/main/scala/` se creó el archivo `Main.scala`, que contiene el programa principal del proyecto.
-
-El programa muestra varios mensajes por consola para comprobar que el código Scala puede ejecutarse correctamente desde este entorno.
-
-![Archivo Main.scala](../images/vscode-main-scala.png)
-
-### Reconocimiento del proyecto por Metals
-
-Al abrir la carpeta del proyecto desde Visual Studio Code, **Metals detectó el proyecto sbt** y cargó correctamente su configuración.
-
-Esto permite trabajar con el proyecto Scala directamente desde el editor utilizando las funcionalidades proporcionadas por Metals.
-
-![Proyecto reconocido por Metals](../images/vscode-metals-proyecto.png)
-
-### Compilación del proyecto
-
-Para comprobar que el código era válido y que el proyecto estaba correctamente configurado, se ejecutó desde la terminal:
-
-```bash
-sbt compile
-```
+Para comprobar que el código era válido y que el proyecto estaba correctamente configurado, se ejecutó sbt compile.
 
 La compilación finalizó correctamente y sin errores.
 
-![Compilación con sbt](../images/vscode-sbt-compile.png)
+![Compilación con sbt](../images/vscode_sbt_compile.png)
 
-### Ejecución del proyecto
+#### Ejecución correcta de sbt run
 
-Finalmente, se ejecutó el programa mediante:
+Finalmente, se ejecutó el programa con sbt run.
 
-```bash
-sbt run
-```
+La terminal mostró correctamente la salida en Main.scala, confirmando que el proyecto puede compilarse y ejecutarse utilizando Scala 2.12.21 y sbt desde Visual Studio Code.
 
-La terminal mostró correctamente la salida definida en `Main.scala`, confirmando que el proyecto puede compilarse y ejecutarse utilizando **Scala 2.12.21 y sbt** desde Visual Studio Code.
-
-![Ejecución con sbt](../images/vscode-sbt-run.png)
-
-Con estas comprobaciones queda verificado el correcto funcionamiento del entorno formado por **Visual Studio Code, Metals, JDK 17, sbt y Scala 2.12.21**.
+![Ejecución con sbt](../images/vscode_sbt_run.png)
 
 
 ### Entorno 3
