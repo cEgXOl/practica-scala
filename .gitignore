@@ -1,0 +1,24 @@
+# Scala / sbt
+target/
+project/target/
+project/project/
+
+# Metals / Bloop
+.metals/
+.bloop/
+.bsp/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Archivos compilados
+*.class
+*.cache
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
